@@ -11,5 +11,7 @@ The AVS decoder only support for Windows platform, and depends on serveral softw
 Note that opencv2.3.1 and AVS_dll_new are no need to install, for that their .dll and .lib files have been included.
 
 ## Usage
+```bash
 AVS/Debug/AVS.exe your_video_name.avs your_result_images_path
+```
 
