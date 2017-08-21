@@ -1,0 +1,15 @@
+  We use AVS_dll_new.dll and xavsdec.dll to analysis the AVS video:
+
+the "int avsCreateCapture(char *filename)"   initializes the AVS video decoder, and return its mark;
+
+the "void avsGetCaptureProperty(int cap, int *width,int *height)" gets the AVS video's width and heigth;
+
+the "int avsQueryFrame_pic(int cap, int w, int h,const char* pic_path)" gets AVS video's one frame ,and write this picture as pic_path;
+
+the "int avsDestroyCapture(int cap)" destroy the AVS video decoder;
+
+you can run this example program to get all the AVS video frames.
+
+ Test Program IDE: visual studio 2008
+ 
+ 
